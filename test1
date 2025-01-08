@@ -1,0 +1,7 @@
+
+def correct_answer(mylist,guess):
+    if mylist[guess] == 'o':
+        print('correct answer')
+    else:
+        print('wrong choice')
+        print(mylist)
